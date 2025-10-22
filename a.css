@@ -1,0 +1,81 @@
+/* ===== RESET DASAR ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background: linear-gradient(135deg, #e54646, #f63ba2);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 700px;
+  width: 100%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* ===== HEADER ===== */
+header h1 {
+  color: #000000;
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #475569;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+/* ===== CARD ===== */
+.card {
+  background: #f8fafc;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card p {
+  text-align: justify;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* ===== BUTTON ===== */
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #eb2525;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+/* ===== OUTPUT ===== */
+#output {
+  margin-top: 20px;
+  color: #8a1e1e;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+

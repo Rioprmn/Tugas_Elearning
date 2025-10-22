@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rio Permana</title>
+  <link rel="stylesheet" href="a.css">
+</head>
+<body>
+
+  <div class="container">
+    <header>
+        <h1>Mahasiswa</h1>
+      <h3>Rio Permana</h3>
+      <br>
+     
+    </header>
+
+    <main class="card">
+      <p>
+        Halo! Nama saya <b>Rio Permana</b>, seorang mahasiswa yang tertarik pada bidang teknologi, pemrograman, dan keamanan.
+        Saya suka mempelajari hal-hal baru terutama yang berhubungan dengan komputer jaringan dan website.
+      </p>
+
+      <p>
+        <p>
+         Saat ini saya sering melakukan kegiatan sederhana seperti membuat tampilan web, mencoba kode kode dasar, dan belajar cara kerja program.
+        </p>
+
+      </p>
+
+      <p>
+        Di waktu luang, saya suka mendengarkan musik, bermain game, dan melakukan eksperimen kecil.
+      </p>
+
+      <button onclick="tampilkanTanggal()">Tampilkan Tanggal & Waktu</button>
+      <div id="output"></div>
+    </main>
+
+  </div>
+
+  <script>
+    function tampilkanTanggal() {
+      const sekarang = new Date();
+      document.getElementById("output").innerHTML =
+        "Sekarang: " + sekarang.toLocaleString('id-ID');
+    }
+  </script>
+
+</body>
+</html>
